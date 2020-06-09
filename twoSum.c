@@ -2,6 +2,7 @@
  * Note: The returned array must be malloced, assume caller calls free().
  */
 #include<math.h>
+
 typedef struct node node;
 struct node{
     int value;
