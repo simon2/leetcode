@@ -58,6 +58,5 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
             hash_insert(hash_table, target-nums[i], i, numsSize);
         }
     }
-    //printf("%d %d\n",result[0],result[1]);
     return result;
 }
