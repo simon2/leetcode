@@ -1,4 +1,4 @@
-# My Leetcode solusions in C
+# My Leetcode solutions in C
 
 This is a repository of my solution of problems on Leetcode in C.
 
