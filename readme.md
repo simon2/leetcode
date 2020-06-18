@@ -12,4 +12,5 @@ This is a repository of my solution of problems on Leetcode in C.
 14. 最长公共前缀 longestCommonPrefix.c
 15. 三数之和 threeSum.c
 20. 有效的括号 isValid.c
+21. 合并两个有序链表 mergeTwoLists.c
 793. 每日温度 dailyTemperatures.c
