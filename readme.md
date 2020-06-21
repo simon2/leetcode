@@ -14,4 +14,5 @@ This is a repository of my solution of problems on Leetcode in C.
 20. 有效的括号 isValid.c
 21. 合并两个有序链表 mergeTwoLists.c
 24. 删除排序数组中的重复项 removeDuplicates.c
+28. 实现strStr() strStr.c
 793. 每日温度 dailyTemperatures.c
