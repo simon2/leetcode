@@ -16,3 +16,4 @@ This is a repository of my solution of problems on Leetcode in C.
 24. 删除排序数组中的重复项 removeDuplicates.c
 28. 实现strStr() strStr.c
 793. 每日温度 dailyTemperatures.c
+0201. 移除重复节点 removeDuplicateNodes.c
