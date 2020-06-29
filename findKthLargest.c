@@ -32,7 +32,7 @@ int findKthLargest(int* nums, int numsSize, int k){
 }
 /********* end of my naive solution *******/
 
-/********* better way using heap **********/
+/********* better(best?) way using heap **********/
 void heapify(int* data, int index, int size){
   int left = index * 2 + 1;
   int right = index * 2 + 2;
@@ -74,6 +74,39 @@ int findKthLargest(int* nums, int numsSize, int k){
 }
 /********* end of heap solution ***********/
 
-/********* best way using quick select **********/
-
+/********* another way using quick select **********/
+int findKthLargest(int* nums, int numsSize, int k){
+    int left = 0;
+    int right = numsSize - 1;
+    while(left < right){
+        printf("%d %d\n",left,right);
+        int i = left;
+        int j = right;
+        int pivot = left;
+        while(i<j){
+            while(i<right && nums[i]<=nums[pivot]){
+                i++;
+            }
+            while(j>left && nums[j]>nums[pivot]){
+                j--;
+            }
+            if(i<j){
+                int temp = nums[i];
+                nums[i] = nums[j];
+                nums[j] = temp;
+            }
+        }
+        int temp = nums[j];
+        nums[j] = nums[pivot];
+        nums[pivot] = temp;
+        if(j==numsSize-k){
+            break;
+        }else if(j<numsSize-k){
+            left = j + 1;
+        }else{
+            right = j - 1;
+        }
+    }
+    return nums[numsSize-k];
+}
 /********* end of quick select solution ***********/
