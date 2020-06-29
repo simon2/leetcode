@@ -79,7 +79,6 @@ int findKthLargest(int* nums, int numsSize, int k){
     int left = 0;
     int right = numsSize - 1;
     while(left < right){
-        printf("%d %d\n",left,right);
         int i = left;
         int j = right;
         int pivot = left;
