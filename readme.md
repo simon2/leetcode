@@ -17,5 +17,6 @@ This is a repository of my solution of problems on Leetcode in C.
 27. 移除元素 removeElement.c
 28. 实现strStr() strStr.c
 41. 缺失的第一个正数 firstMissingPositive.c
+215. 数组中的第K个最大元素 findKthLargest.c
 793. 每日温度 dailyTemperatures.c
 0201. 移除重复节点 removeDuplicateNodes.c
