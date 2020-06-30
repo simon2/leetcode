@@ -20,4 +20,4 @@ This is a repository of my solution of problems on Leetcode in C.
 215. 数组中的第K个最大元素 findKthLargest.c
 793. 每日温度 dailyTemperatures.c
 0201. (面试题02.01)移除重复节点 removeDuplicateNodes.c
-09. (剑指offer)用两个栈实现队列 CQueue.c
+09. (剑指offer 09)用两个栈实现队列 CQueue.c
