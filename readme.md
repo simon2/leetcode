@@ -17,6 +17,7 @@ This is a repository of my solution of problems on Leetcode in C.
 27. 移除元素 removeElement.c
 28. 实现strStr() strStr.c
 35. 搜索插入位置 searchInsert.c
+38. 外观数列 countAndSay.c
 41. 缺失的第一个正数 firstMissingPositive.c
 108. 将有序数组转化为二叉搜索树 sortedArrayToBST.c
 215. 数组中的第K个最大元素 findKthLargest.c
