@@ -21,6 +21,7 @@ This is a repository of my solution of problems on Leetcode in C.
 41. 缺失的第一个正数 firstMissingPositive.c
 66. 加一 plusOne.c
 108. 将有序数组转化为二叉搜索树 sortedArrayToBST.c
+112. 路径总和 hasPathSum.c
 215. 数组中的第K个最大元素 findKthLargest.c
 378. 有序矩阵中第K小第元素 KthSmallest.c
 718. 最长重复子数组 findLength.c
