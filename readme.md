@@ -27,4 +27,5 @@ This is a repository of my solution of problems on Leetcode in C.
 718. 最长重复子数组 findLength.c
 793. 每日温度 dailyTemperatures.c
 0201. (面试题02.01)移除重复节点 removeDuplicateNodes.c
+1611. (面试题16.11)跳水板 divingBoard.c
 09. (剑指offer 09)用两个栈实现队列 CQueue.c
