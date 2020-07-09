@@ -16,6 +16,7 @@ This is a repository of my solution of problems on Leetcode in C.
 24. 删除排序数组中的重复项 removeDuplicates.c
 27. 移除元素 removeElement.c
 28. 实现strStr() strStr.c
+29. 两数相除 divide.c
 35. 搜索插入位置 searchInsert.c
 38. 外观数列 countAndSay.c
 41. 缺失的第一个正数 firstMissingPositive.c
